@@ -290,6 +290,11 @@ img {
 	row-gap: 1rem;
 }
 
+.home__social-icon {
+	font-size: 1.25rem;
+	color: var(--first-color);
+}
+
 .home__social-icon:hover {
 	color: var(--first-color-alt);
 }
@@ -478,6 +483,11 @@ img {
 	display: grid;
 	grid-template-columns: 1fr max-content 1fr;
 	column-gap: 1.5rem;
+}
+
+.qualification__title {
+	font-size: var(--normal-font-size);
+	font-weight: var(--font-medium);
 }
 
 .qualification__subtitle {
@@ -916,11 +926,5 @@ img {
 	}
 	.contact__inputs {
 		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media screen and (min-height: 1080) {
-	.about {
-		margin-top: 400px;
 	}
 }
